@@ -1,0 +1,376 @@
+%-------------------------
+% Resume in Latex
+% Author : Vidit Agrawal
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Vidit Agrawal} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:2407912717}{+1 240-791-2717}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:ag.vidit1@gmail.com}{ag.vidit1@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{/in/agvidit1}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{/agvidit1}{GitHub}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/search/university+of+maryland+college+park/@38.9868017,-76.943665,17z/data=!3m1!4b1}{Washington DC, United States}
+\end{center}
+
+
+
+
+%----------- EDUCATION -----------
+
+\section{Academic Background}
+\vspace{2pt}
+% \begin{tabular}{p{0.7\linewidth} r}
+%   \textbf{University of Maryland, College Park} & Aug 2023 -- Present \\
+%   Masters in Software Engineering & \textbf{GPA: N/A} \\
+  
+%   \textbf{Indian Institute of Technology, Roorkee} & July 2017 -- June 2021 \\
+%   B.Tech. in Electrical Engineering & \textbf{GPA: 8.055/10.00} \\
+  
+%   % Add more education entries if needed
+% \end{tabular}
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Maryland, College Park} {May 2025 (Expected)}
+      {Masters in Software Engineering}{GPA: N/A}
+    \resumeSubheading
+      {Indian Institute of Technology, Roorkee} {June 2021}
+      {B.Tech. in Electrical Engineering}{GPA: 8.055/10.00}
+   \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+
+\section{Technical Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Tools:}{ System Design, DSA, Database Management, Operating System, ML Algorithms, DL Frameworks, Graph Theory} \\ \vspace{3pt}
+        
+        \textbf{Languages:}{ C, C, C++, Python, JavaScript, Java, R, SQL, PHP, MATLAB} \\ \vspace{3pt}
+        
+        \textbf{Frameworks:}{ React.js, Node.js, Postman, Flask, DevOps, Azure, Scikit-Learn, PyTorch, Keras, TensorFlow} \\ 
+        
+        % \textbf{Languages:}{ X, X X}
+        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Microsoft Pvt. Ltd.} {Noida, India}
+      {Software Developer}{July 2021 \textbf{--} Aug 2023}
+        \resumeItemListStart
+            \resumeItem{Worked on the sovereign cloud buildout orchestration service in the team, Special Clouds, enabling one-touch automated buildout - with the north star goal to bring M365 Services' buildout time from 3 years to 3 months.}
+            \resumeItem{Built product from scratch in C\# and .Net incorporating high-level and low-level system design principles, and extensive unit testing with greater than 95\% coverage.}
+            \resumeItem{Collaborated with diverse partner teams, architects, and managers [EMs and PMs] to deliver M365 service in goLocals in days, which earlier took months.}
+            \resumeItem{Managed Azure resources, led and developed in multi-faceted areas: Core Planner, CIS, Control Plane, AAD App.}
+            \resumeItem{Introduced methodologies to enhance product definition, release processes, documentation, and service customization; Improved new-hire onboarding time to raise the first PR from 1.5 months to within a week.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {American Express}{Gurgaon, India}
+      {Data Analyst Intern}{May 2020 \textbf{--} July 2020}
+        \resumeItemListStart
+            \resumeItem{Delivered the project, "Time Series Forecasting Model using Geo-Aggregated Data," targeted to predict the effect of COVID-19 on credit card demand and prospect acquisition.}
+            \resumeItem{Demonstrated detailed exploration, EDA, and Time-Series Models in Python and Panel-Data regression in R using open-source data affecting the US financial market.}
+            \resumeItem{Utilized Google APIs and tools such as GCP, Google Trends, and Google Keyword Planner.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Jawaharlal Nehru University}{Delhi, India}
+      {Java Winter Intern}{Dec 2018 \textbf{--} Jan 2019}
+        \resumeItemListStart
+            \resumeItem{Used Java RMI and fundamental PHP to code a servlet question-answer application.}
+            \resumeItem{Devised a different server for storing the database using MySQL, transferred questions across to create a quiz, and displayed the final score and time taken on simple UI.}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- Technical PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{Crime File Management} $|$ \textit{React.js, Firebase, Python, ML Algo, Time-Series Analysis}}{Sept 2020 \textbf{--} Apr 2021}{}
+          \resumeItemListStart
+            \resumeItem{Created web application for the online registration and status check of complaints using React.js on frontend, FireBase for database, and Python for crime prediction.}
+            \resumeItem{Implemented separate login for visitors, registered users, administrators, and selected police branches. Completed and presented design flow with both high-level and low-level design.}
+            \resumeItem{Added ML classification and time-series analysis models to predict the type of crime most likely to occur at a given region (x) time. Also added a visualization dashboard on the frontend.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Data-Driven Prediction of Battery Cycle Life Before Capacity Degradation} $|$ \textit{DL} }{Jan 2020 \textbf{--} May 2020}{}
+          \resumeItemListStart
+            \resumeItem{Used neural networks-based approach to predict the remaining lifetime of Lithium-Ion batteries using details concerning a few charging-discharging cycles.}
+            \resumeItem{Designed and Implemented a multi-layer CNN using TensorFlow 2.0 with Keras on the backend to create a state-of-the-art solution.}
+          \resumeItemListEnd
+        \newpage    
+      \resumeProjectHeading
+        {\textbf{Movie Recommendation Web Application} $|$ \textit{React.js, Flask, ML Algo, NLP}}{July 2020 \textbf{--} Sep 2020}{}
+          \resumeItemListStart
+            \resumeItem{Developed a Full Stack application for movie suggestions using React JS, Flask, and Machine Learning techniques.}
+            \resumeItem{Utilized NLP and Cosine Similarity for recommending top 10 movies as per the filters based on Genre, Actors, Director, Language, and Popularity. Deployed on Heroku Cloud Server called blackboxasv.heroku}
+            \resumeItem{Implemented Sentiment Analysis to show User Reviews using Emojis as per the sentiment.}
+          \resumeItemListEnd
+        
+        \resumeProjectHeading
+        {\textbf{Flood Rescue Drone} $|$ \textit{Drones, DL Framework, YOLO, Rasberry PI}}{Feb 2019 \textbf{--} Mar 2019}{}
+          \resumeItemListStart
+            \resumeItem{Detected flood victims using the YOLO framework, a DL algorithm for real-time object detection, and sent their GPS location to the rescue center using Quadcopter and Raspberry Pi.}
+            \resumeItem{Displayed in Shrishti ‘19, IIT Roorkee Annual Techno-Hobby Exhibition and was the leading showcase in the exhibition.}
+          \resumeItemListEnd
+      
+      
+      
+    \resumeSubHeadingListEnd
+
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{Awards \& Achievements}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Inter IIT Cultural Meet'19 }{ Acrylic Painting - 6th pos among pan-India} \\ 
+    
+        \textbf{Dare2Compete Online Hackathon’20}{ - 8th pos among 6700+ participants} \\ 
+        
+        \textbf{Coderulon'20}{, IIT Roorkee - 6th pos among 4000+ participants } \\ 
+        
+        \textbf{Intra-College Badminton and Table Tennis} {- 1st/2nd pos in singles-doubles in the years 2017-20}\\ 
+        
+        \textbf{IITR Heritage Fund Excellence Award'21}{ - best all-rounder with prize money of of INR 10k} \\ 
+        
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+
+%----------- POR and Extra-Curricular Activities-----------
+
+\section{POR and Extra-Curricular Activities}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Artificial Intelligence and Electronics Society (ArIES), IIT Roorkee}{May 2020 – May 2021}{Joint Secretary}{}
+    \resumeItemListStart
+        \resumeItem{Implemented computer vision and object detection models such as YOLO, InceptionV3 and OpenCV.}
+        \resumeItem{Operated on microelectronics such as Arduino, Raspberry pi, encoders, and various sensors in several projects.}
+        \resumeItem{Led to the foundation of Aero Club, ArIES, a club dedicated to projects on RC planes and drones.}\
+    \resumeItemListEnd
+
+    \resumeSubheading{Fine Arts Society, IIT Roorkee}{May 2020 – May 2021}{Add. Secretary}{}
+    \resumeItemListStart
+        \resumeItem{Led IIT Roorkee Fine Arts contingent comprising 14 individuals for the Inter IIT Cultural Fest’19 at IIT Bombay.}
+        \resumeItem{Organized and participated in Darpan, the annual art festival at IIT Roorkee.}\
+    \resumeItemListEnd
+    
+    \resumeProjectHeading {\textbf{Consulting and Analytics Group, IITG}}{Apr 2020 – June 2020}
+    \resumeItemListStart
+        \resumeItem{Explored and implemented EDA, Data Pre-processing, Scrapping, and various Machine Learning algorithms in the "Summer Data Science Boot Camp" held by CAG, IIT Guwahati.}
+        \resumeItem{Predicted IBM employee attrition in Covid-19 Kaggle Competition-Capstone Project; secured top 10 percentile.}
+    \resumeItemListEnd
+    
+    \resumeProjectHeading {\textbf{Codefundo++, Microsoft}}{Oct 2018}
+    \resumeItemListStart
+        \resumeItem{Successfully built an android application, "Forum of Disaster Management," responsible for tackling the lack of public awareness in case of catastrophe using Android Studio and Firebase.}
+        \resumeItem{Developed the app as a social platform that allowed people to tag pictures of ‘disasters’ along with their GPS location on a map to alert the residents and authorities in these locations.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- CERTIFICATES -----------
+
+% \section{Certificates}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Procter \& Gamble VIA Certificate Program}{Feb 2022}{Business Skills, Data and Digital Skills, Project Management and Personal Productivity}
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- ORGANIZATIONS -----------
+
+% \section{Organizations}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Institute of Electrical and Electronics Engineers (IEEE)}{Feb 2022 -- Present}{Student Member}
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- HOBBIES -----------
+
+% \section{Hobbies}
+  % \resumeSubHeadingListStart
+    % \small{\item{Swimming, Fitness, Eight-ball}}
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- REFERENCES -----------
+
+% \section{References}
+  % \resumeSubHeadingListStart
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
